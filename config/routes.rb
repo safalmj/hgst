@@ -1,5 +1,9 @@
 HGST::Application.routes.draw do
-  # The priority is based upon order of creation:
+  resources :students
+
+  root :to => "Students#index"
+
+   # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:

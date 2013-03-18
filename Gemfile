@@ -19,6 +19,14 @@ end
 
 gem 'jquery-rails', '2.0.2'
 
+#### View Related #####
+#gem 'slim'
+
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
+#gem 'kaminari'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
