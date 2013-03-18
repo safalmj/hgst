@@ -27,6 +27,10 @@ gem "less-rails"
 gem "twitter-bootstrap-rails"
 #gem 'kaminari'
 
+group :production do
+	gem 'pg', '0.12.2'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
